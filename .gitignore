@@ -1,0 +1,9 @@
+code2vec/models
+code2vec/test
+code2vec/train
+code2vec/validate
+code2vec/data
+dataset
+code2vec/JavaPatterns
+code2vec/tmp
+.ipynb_checkpoints

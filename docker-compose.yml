@@ -1,0 +1,16 @@
+version: '3'
+services:
+  tensorflow:
+    image: tensorflow/tensorflow:latest-gpu-jupyter
+    ports:
+      - "8080:8888"
+    volumes:
+      - ./code2vec:/tf/code2vec
+      - ./main.ipynb:/tf/main.ipynb
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
