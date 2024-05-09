@@ -1,6 +1,6 @@
 # Overview
 
-The goal of this repository is to train a code2vec model, using TensorFlow
+The goal of this repository is to train a code2vec model and create GoF pattern classifier
 
 ## How to run
 
